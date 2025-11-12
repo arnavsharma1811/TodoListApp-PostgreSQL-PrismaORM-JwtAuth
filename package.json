@@ -1,0 +1,23 @@
+{
+  "name": "bckndp2",
+  "version": "1.0.0",
+  "description": "A full stack todo list application that uses a node js backend a SQLite database and JWT Authentication ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env --experimental-sqlite ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
