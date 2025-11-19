@@ -5,20 +5,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --env-file=.env --experimental-sqlite ./src/server.js"
-  },
+
+  "dev": "nodemon --env-file=.env ./src/server.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^7.0.0",
+    "@prisma/client": "^5.22.0",
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.16.3",
-    "prisma": "^7.0.0",
-    "sqlite3": "^5.1.7"
+    "prisma": "^5.22.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
